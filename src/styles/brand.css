@@ -1,0 +1,75 @@
+/* Brand Colors */
+:root {
+  --brand-primary: #3B82F6;   /* Blue 500 */
+  --brand-secondary: #6366F1;  /* Indigo 500 */
+  --brand-accent: #10B981;     /* Emerald 500 */
+  
+  --brand-dark: #1E293B;       /* Slate 800 */
+  --brand-light: #F8FAFC;      /* Slate 50 */
+  
+  --brand-success: #10B981;    /* Emerald 500 */
+  --brand-warning: #F59E0B;    /* Amber 500 */
+  --brand-error: #EF4444;      /* Red 500 */
+  --brand-info: #3B82F6;       /* Blue 500 */
+}
+
+/* Logo Clear Space */
+.logo-clearspace {
+  padding: calc(var(--logo-height) * 0.5);
+}
+
+/* Logo Minimum Size */
+.logo {
+  min-width: 32px;
+  min-height: 32px;
+}
+
+/* Logo Grid */
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+/* Brand Typography */
+.brand-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.brand-body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+/* Brand Gradients */
+.brand-gradient-primary {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+}
+
+.brand-gradient-dark {
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand-secondary));
+}
+
+/* Brand Shadows */
+.brand-shadow-sm {
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.1);
+}
+
+.brand-shadow {
+  box-shadow: 0 4px 6px rgba(59, 130, 246, 0.1);
+}
+
+.brand-shadow-lg {
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.1);
+}
+
+/* Brand Animations */
+@keyframes brand-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.brand-animate-pulse {
+  animation: brand-pulse 2s infinite;
+}
