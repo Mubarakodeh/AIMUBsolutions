@@ -42,7 +42,7 @@ function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/services" className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition transform hover:scale-105">
-                  Start 7-Day Free Trial <ArrowRight className="w-5 h-5" />
+                  Our Services <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link to="/contact-form" className="px-8 py-4 bg-slate-700 hover:bg-slate-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition">
                   Schedule Demo <ArrowRight className="w-5 h-5" />
