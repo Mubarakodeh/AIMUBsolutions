@@ -70,17 +70,17 @@ function LandingPage() {
       <section className="pt-16 pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-8 leading-tight">
-            We Build AI Systems That
-            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Book Appointments, Follow Up, and Close Leads</span> for You.
+            Try AI Automation Risk-Free:
+            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> 7-Day Free Trial</span>
           </h1>
           <p className="text-xl text-slate-300 mb-12 max-w-3xl mx-auto">
-            No tools to manage. No tech headaches. Just done-for-you automation systems tailored to your business.
+            Experience how AI automation can transform your business operations. No credit card required.
           </p>
           <Link 
             to="/contact-form"
             className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold inline-flex items-center gap-2 transition transform hover:scale-105"
           >
-            Book My Free Demo <ArrowRight className="w-5 h-5" />
+            Start 7-Day Free Trial <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
       </section>
@@ -194,7 +194,7 @@ function LandingPage() {
       {/* Final CTA Section */}
       <section className="py-20 bg-slate-800/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Want to See How Many Leads You're Missing?</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Ready to Transform Your Business Risk-Free?</h2>
           
           {isSubmitted ? (
             <div className="bg-green-500/20 border border-green-500 rounded-lg p-6">
@@ -205,7 +205,7 @@ function LandingPage() {
           ) : (
             <div className="max-w-xl mx-auto">
               <p className="text-xl text-slate-300 mb-8">
-                Book a free demo to see exactly how our AI systems can transform your business.
+                Start your 7-day free trial today and experience the power of AI automation firsthand.
               </p>
               
               {submitError && (
@@ -286,7 +286,7 @@ function LandingPage() {
                     isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
                   }`}
                 >
-                  {isSubmitting ? 'Submitting...' : 'Schedule Free Demo'}
+                  {isSubmitting ? 'Starting Trial...' : 'Start 7-Day Free Trial'}
                   {!isSubmitting && <ArrowRight className="w-5 h-5" />}
                 </button>
               </form>

@@ -34,18 +34,18 @@ function Home() {
           <div className="md:flex md:items-center md:justify-between">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-5xl font-bold text-white mb-6 leading-tight">
-                Automate Smarter.
-                <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Grow Faster.</span>
+                Try AI Automation
+                <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Risk-Free for 7 Days</span>
               </h1>
               <p className="text-xl text-slate-300 mb-10">
-                AI-powered systems that handle your support, lead gen, scheduling, and website—so you don't have to.
+                Transform your business with AI-powered automation. Start your 7-day free trial today and see the results for yourself.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/services" className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition transform hover:scale-105">
-                  Explore Services <ArrowRight className="w-5 h-5" />
+                  Start 7-Day Free Trial <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link to="/contact-form" className="px-8 py-4 bg-slate-700 hover:bg-slate-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition">
-                  Schedule Free Demo <ArrowRight className="w-5 h-5" />
+                  View Pricing <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
             </div>
@@ -160,27 +160,27 @@ function Home() {
       {/* How It Works Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white text-center mb-16">How It Works</h2>
+          <h2 className="text-3xl font-bold text-white text-center mb-16">How It Works</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-slate-800 p-8 rounded-xl border border-slate-700 relative">
               <div className="absolute -top-4 left-4 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">1</div>
-              <Brain className="w-12 h-12 text-blue-400 mb-6" />
-              <h3 className="text-2xl font-bold text-white mb-4">Tell Us What You Need</h3>
-              <p className="text-slate-300">Start with a consultation or service selection. We'll help you choose the perfect solution.</p>
+              <Brain className="w-12 h-12 text-blue-400 mb-6" /> 
+              <h3 className="text-2xl font-bold text-white mb-4">Start Your Free Trial</h3>
+              <p className="text-slate-300">Begin your 7-day risk-free trial instantly. No credit card required to get started.</p>
             </div>
             
             <div className="bg-slate-800 p-8 rounded-xl border border-slate-700 relative">
               <div className="absolute -top-4 left-4 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">2</div>
               <Settings className="w-12 h-12 text-purple-400 mb-6" />
-              <h3 className="text-2xl font-bold text-white mb-4">We Build or Configure It</h3>
-              <p className="text-slate-300">Choose DIY setup with our support or let us manage everything for you.</p>
+              <h3 className="text-2xl font-bold text-white mb-4">Experience the Power</h3>
+              <p className="text-slate-300">See immediate results with our AI automation. Full access to all features during your trial.</p>
             </div>
             
             <div className="bg-slate-800 p-8 rounded-xl border border-slate-700 relative">
               <div className="absolute -top-4 left-4 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">3</div>
               <BarChart3 className="w-12 h-12 text-green-400 mb-6" />
-              <h3 className="text-2xl font-bold text-white mb-4">You Grow While We Run It</h3>
-              <p className="text-slate-300">Get live dashboards, lead flow, and 24/7 automation working for your business.</p>
+              <h3 className="text-2xl font-bold text-white mb-4">Scale Your Success</h3>
+              <p className="text-slate-300">Continue with a plan that fits your needs after experiencing the benefits firsthand.</p>
             </div>
           </div>
         </div>
@@ -326,15 +326,15 @@ function Home() {
       {/* Final CTA Section */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready to Automate the Hard Stuff?</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Ready to Transform Your Business Risk-Free?</h2>
           <p className="text-xl text-slate-300 mb-12">
-            Let's show you exactly how AI MUB can save time and boost revenue—on a free strategy call.
+            Start your 7-day free trial today and see how AI automation can revolutionize your business operations.
           </p>
           <Link 
             to="/contact-form"
             className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold inline-flex items-center gap-2 transition transform hover:scale-105"
           >
-            Book My Free Demo <ArrowRight className="w-5 h-5" />
+            Start 7-Day Free Trial <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
       </section>
