@@ -15,9 +15,9 @@ function Footer() {
               AI-powered automation solutions for modern businesses.
             </p>
             <div className="mt-6 space-y-2">
-              <a href="mailto:info@aimub.com" className="flex items-center gap-2 text-slate-300 hover:text-white transition">
+              <a href="mailto:AIMUBsolutions@gmail.com" className="flex items-center gap-2 text-slate-300 hover:text-white transition">
                 <Mail className="w-4 h-4" />
-                info@aimub.com
+                AIMUBsolutions@gmail.com
               </a>
               <a href="tel:+1-800-AI-SOLUTIONS" className="flex items-center gap-2 text-slate-300 hover:text-white transition">
                 <Phone className="w-4 h-4" />
