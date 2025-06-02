@@ -149,20 +149,20 @@ const ContactForm: React.FC = () => {
                 <CheckCircle className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h2 className="text-3xl font-bold text-white mb-4">Thanks!</h2>
-            <p className="text-xl text-slate-300 mb-8">We'll reach out to you shortly.</p>
+            <h2 className="text-3xl font-bold text-white mb-4">Welcome Aboard!</h2>
+            <p className="text-xl text-slate-300 mb-8">Your 7-day free trial is being set up. Check your email for access details.</p>
             <button 
               onClick={() => setIsSubmitted(false)}
               className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition"
             >
-              Submit Another Request
+              Start Another Trial
             </button>
           </div>
         ) : (
           <div className="bg-slate-800 rounded-xl p-8 shadow-xl border border-slate-700">
-            <h1 className="text-5xl font-bold text-white mb-6">Want to See How Many Leads You're Missing?</h1>
+            <h1 className="text-5xl font-bold text-white mb-6">Start Your 7-Day Free Trial</h1>
             <p className="text-xl text-slate-300 mb-12">
-              Book a free demo to see exactly how our AI systems can transform your business.
+              Experience the full power of AI automation risk-free for 7 days. No credit card required.
             </p>
             
             {submitError && (
@@ -284,7 +284,7 @@ const ContactForm: React.FC = () => {
                     isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
                   }`}
                 >
-                  {isSubmitting ? 'Submitting...' : 'Schedule Free Demo'}
+                  {isSubmitting ? 'Starting Trial...' : 'Start 7-Day Free Trial'}
                   {!isSubmitting && <ArrowRight className="w-5 h-5" />}
                 </button>
               </div>
