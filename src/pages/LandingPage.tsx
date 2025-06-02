@@ -70,17 +70,17 @@ function LandingPage() {
       <section className="pt-16 pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-8 leading-tight">
-            Try AI Automation Risk-Free:
-            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> 7-Day Free Trial</span>
+            Transform Your Business:
+            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Schedule a Free Consultation</span>
           </h1>
           <p className="text-xl text-slate-300 mb-12 max-w-3xl mx-auto">
-            Experience how AI automation can transform your business operations. No credit card required.
+            Schedule a free consultation today and experience the power of AI automation firsthand, with a 7-day risk-free trial after setup.
           </p>
           <Link 
             to="/contact-form"
             className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold inline-flex items-center gap-2 transition transform hover:scale-105"
           >
-            Start 7-Day Free Trial <ArrowRight className="w-5 h-5" />
+            Schedule My Free Consultation <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
       </section>
@@ -286,7 +286,7 @@ function LandingPage() {
                     isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
                   }`}
                 >
-                  {isSubmitting ? 'Starting Trial...' : 'Start 7-Day Free Trial'}
+                  {isSubmitting ? 'Submitting...' : 'Schedule Free Consultation'}
                   {!isSubmitting && <ArrowRight className="w-5 h-5" />}
                 </button>
               </form>

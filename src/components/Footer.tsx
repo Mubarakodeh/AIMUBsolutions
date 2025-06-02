@@ -85,7 +85,7 @@ function Footer() {
               to="/contact-form"
               className="inline-flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition"
             >
-              Book a Demo <ArrowRight className="w-5 h-5" />
+              Schedule Free Consultation <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
         </div>
