@@ -56,7 +56,10 @@ function Navigation() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <Bot className="w-8 h-8 text-blue-400" />
-          <span className="text-white font-bold text-xl">AI MUB</span>
+          <div className="flex flex-col">
+            <span className="text-white font-bold text-2xl tracking-wide">AIMUB</span>
+            <span className="text-slate-300 text-sm -mt-1">solutions</span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
