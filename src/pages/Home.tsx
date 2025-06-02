@@ -45,7 +45,7 @@ function Home() {
                   Start 7-Day Free Trial <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link to="/contact-form" className="px-8 py-4 bg-slate-700 hover:bg-slate-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition">
-                  View Pricing <ArrowRight className="w-5 h-5" />
+                  Schedule Demo <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
             </div>
