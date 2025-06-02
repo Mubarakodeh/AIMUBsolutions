@@ -142,17 +142,16 @@ const ContactForm: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 to-slate-800 py-16">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-slate-800 rounded-xl p-8 shadow-xl border border-slate-700">
-            <h1 className="text-5xl font-bold text-white mb-6">Schedule Your Free Consultation</h1>
-            <p className="text-xl text-slate-300 mb-12">
-              Discuss your business needs and learn how AI automation can help, with a 7-day risk-free trial after setup.
-            </p>
-            <div className="calendly-inline-widget" data-url="https://calendly.com/aimubsolutions/demo-call" style={{ minWidth: '320px', height: '700px' }}></div>
-          </div>
+        <div className="bg-slate-800 rounded-xl p-8 shadow-xl border border-slate-700">
+          <h1 className="text-5xl font-bold text-white mb-6">Schedule Your Free Consultation</h1>
+          <p className="text-xl text-slate-300 mb-12">
+            Discuss your business needs and learn how AI automation can help, with a 7-day risk-free trial after setup.
+          </p>
+          <div className="calendly-inline-widget" data-url="https://calendly.com/aimubsolutions/demo-call" style={{ minWidth: '320px', height: '700px' }}></div>
+        </div>
       </div>
+    </div>
   );
 };
 
 export default ContactForm;
-  )
-}
