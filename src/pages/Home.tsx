@@ -197,11 +197,17 @@ function Home() {
               <p className="text-slate-300">HVAC, plumbing, electrical, and more</p>
             </Link>
             
-            <Link to="/services/bundles/real-estate" className="bg-slate-700 p-6 rounded-xl border border-slate-600 hover:border-purple-500 transition-all duration-300">
-              <HomeIcon className="w-10 h-10 text-purple-400 mb-4" />
-              <h3 className="text-xl font-bold text-white mb-2">Real Estate</h3>
-              <p className="text-slate-300">Agents, brokers, and property managers</p>
-            </Link>
+            <div className="bg-slate-700 p-6 rounded-xl border border-slate-600 hover:border-purple-500 transition-all duration-300">
+              <Target className="w-10 h-10 text-purple-400 mb-4" />
+              <h3 className="text-xl font-bold text-white mb-2">Lead Generation</h3>
+              <p className="text-slate-300">AI-powered lead capture and qualification</p>
+              <Link 
+                to="/lead-generation"
+                className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors mt-4"
+              >
+                Learn More <ArrowRight className="w-5 h-5" />
+              </Link>
+            </div>
             
             <Link to="/services/bundles/ecommerce" className="bg-slate-700 p-6 rounded-xl border border-slate-600 hover:border-green-500 transition-all duration-300">
               <ShoppingBag className="w-10 h-10 text-green-400 mb-4" />
