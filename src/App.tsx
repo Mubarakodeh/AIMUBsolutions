@@ -14,6 +14,7 @@ import Bundles from './pages/services/Bundles';
 import CustomProjects from './pages/services/CustomProjects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import LeadGeneration from './pages/LeadGeneration';
 import Industries from './pages/Industries';
 import Testimonials from './pages/Testimonials';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -40,6 +41,7 @@ function App() {
           <Route path="/services/bundles" element={<Bundles />} />
           <Route path="/services/custom" element={<CustomProjects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/lead-generation" element={<LeadGeneration />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/testimonials" element={<Testimonials />} />

@@ -28,18 +28,18 @@ function LeadGeneration() {
           <div className="md:flex md:items-center md:justify-between">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-5xl font-bold text-white mb-6 leading-tight">
-                Supercharge Your Sales with 
-                <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> AI-Driven Lead Generation</span>
+                Done-For-You 
+                <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"> Lead Generation</span>
               </h1>
               <p className="text-xl text-slate-300 mb-10">
-                Automate your lead outreach, personalize your emails, and follow up seamlessly — all with AI-powered solutions.
+                Get real leads, enriched and delivered — daily, weekly, or on-demand. Our custom lead generation system finds and qualifies prospects so you can focus on closing deals.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact-form" className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition transform hover:scale-105">
-                  Start Free Trial <ArrowRight className="w-5 h-5" />
+                  Request Demo <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link to="/contact" className="px-8 py-4 bg-slate-700 hover:bg-slate-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition">
-                  Schedule Demo <ArrowRight className="w-5 h-5" />
+                  Book Strategy Call <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
             </div>
@@ -128,165 +128,308 @@ function LeadGeneration() {
             <div className="bg-slate-700 p-8 rounded-xl border border-slate-600 relative">
               <div className="absolute -top-4 left-4 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">1</div>
               <Search className="w-12 h-12 text-blue-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">Scraping Leads</h3>
-              <p className="text-slate-300">We start by scraping through a targeted list of potential leads based on your criteria.</p>
+              <h3 className="text-xl font-bold text-white mb-4">Target Selection</h3>
+              <p className="text-slate-300">Choose your ideal customer based on industry, role, location, or profile.</p>
             </div>
             
             <div className="bg-slate-700 p-8 rounded-xl border border-slate-600 relative">
               <div className="absolute -top-4 left-4 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">2</div>
-              <Mail className="w-12 h-12 text-purple-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">Personalized Outreach</h3>
-              <p className="text-slate-300">Our AI generates personalized emails tailored to each lead, making your outreach feel individualized.</p>
+              <Database className="w-12 h-12 text-purple-400 mb-6" />
+              <h3 className="text-xl font-bold text-white mb-4">Data Collection</h3>
+              <p className="text-slate-300">Pull real lead data from platforms like business directories, social media, or listing sites.</p>
             </div>
             
             <div className="bg-slate-700 p-8 rounded-xl border border-slate-600 relative">
               <div className="absolute -top-4 left-4 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">3</div>
-              <Database className="w-12 h-12 text-green-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">CRM Integration</h3>
-              <p className="text-slate-300">Responding leads are automatically added to your CRM database for easy management.</p>
+              <Shield className="w-12 h-12 text-green-400 mb-6" />
+              <h3 className="text-xl font-bold text-white mb-4">Enrichment & Filtering</h3>
+              <p className="text-slate-300">Clean, validate, and enhance the lead list with contact info and filters.</p>
             </div>
             
             <div className="bg-slate-700 p-8 rounded-xl border border-slate-600 relative">
               <div className="absolute -top-4 left-4 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">4</div>
               <RefreshCw className="w-12 h-12 text-red-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">Automated Follow-ups</h3>
-              <p className="text-slate-300">Smart follow-up sequences ensure no lead falls through the cracks.</p>
+              <h3 className="text-xl font-bold text-white mb-4">Delivery & Activation</h3>
+              <p className="text-slate-300">Automatically send leads to your CRM, email campaigns, or spreadsheets.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Key Benefits Section */}
+      {/* Key Features Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white text-center mb-16">Key Benefits</h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-slate-800 rounded-xl p-8 border border-slate-700">
-              <h3 className="text-2xl font-bold text-white mb-6">Lead Generation</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-white font-semibold">Automated Lead Generation</p>
-                    <p className="text-slate-300">AI scours through your target list to find the best prospects</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-white font-semibold">Personalized Email Outreach</p>
-                    <p className="text-slate-300">Each lead gets a tailored email crafted for maximum engagement</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-white font-semibold">Smart Lead Scoring</p>
-                    <p className="text-slate-300">AI-powered qualification ensures you focus on the best opportunities</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div className="bg-slate-800 rounded-xl p-8 border border-slate-700">
-              <h3 className="text-2xl font-bold text-white mb-6">Automation</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-white font-semibold">CRM Integration</p>
-                    <p className="text-slate-300">Seamless integration with your existing CRM system</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-white font-semibold">Intelligent Follow-ups</p>
-                    <p className="text-slate-300">Automated, personalized follow-up sequences</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-white font-semibold">Performance Analytics</p>
-                    <p className="text-slate-300">Detailed insights and reporting on campaign performance</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
+          <h2 className="text-4xl font-bold text-white text-center mb-16">Key Features</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <FeatureCard
+              icon={<CheckCircle className="w-8 h-8 text-green-400" />}
+              title="Verified Contact Info"
+              description="Every lead comes with validated email addresses and phone numbers."
+            />
+            <FeatureCard
+              icon={<Zap className="w-8 h-8 text-blue-400" />}
+              title="Delivered in Bulk or Real-Time"
+              description="Get leads delivered on your schedule - daily, weekly, or instantly."
+            />
+            <FeatureCard
+              icon={<Database className="w-8 h-8 text-purple-400" />}
+              title="CRM & Campaign Ready"
+              description="Leads are formatted and ready for immediate import into your systems."
+            />
+            <FeatureCard
+              icon={<Settings className="w-8 h-8 text-red-400" />}
+              title="Built 100% Custom to Your Industry"
+              description="Tailored lead generation strategies specific to your business needs."
+            />
           </div>
         </div>
       </section>
 
-      {/* Success Stories Section */}
+      {/* Industries Section */}
       <section className="py-20 bg-slate-800/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white text-center mb-16">Success Stories</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-slate-700 rounded-xl p-8">
-              <div className="flex items-center gap-4 mb-6">
-                <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" 
-                  alt="Client" 
-                  className="w-16 h-16 rounded-full object-cover"
-                />
-                <div>
-                  <p className="text-white font-semibold">Michael Chen</p>
-                  <p className="text-slate-400">VP of Sales, TechCorp</p>
-                </div>
-              </div>
-              <p className="text-slate-300 italic mb-4">
-                "With AI MUB's system, our sales pipeline has become more efficient, with automated follow-ups leading to a higher conversion rate. We've seen a 40% increase in qualified leads."
-              </p>
-              <div className="flex gap-1">
+          <h2 className="text-4xl font-bold text-white text-center mb-16">Industries We've Served</h2>
+          <div className="grid md:grid-cols-5 gap-8">
+            <IndustryCard
+              icon={<HomeIcon className="w-10 h-10 text-blue-400" />}
+              title="Home Services"
+              description="HVAC, plumbing, electrical contractors"
+            />
+            <IndustryCard
+              icon={<BuildingIcon className="w-10 h-10 text-purple-400" />}
+              title="Real Estate"
+              description="Agents, brokers, property managers"
+            />
+            <IndustryCard
+              icon={<Brain className="w-10 h-10 text-green-400" />}
+              title="SaaS & Agencies"
+              description="Software companies and marketing agencies"
+            />
+            <IndustryCard
+              icon={<TruckIcon className="w-10 h-10 text-red-400" />}
+              title="Logistics"
+              description="Shipping, freight, transportation"
+            />
+            <IndustryCard
+              icon={<Users className="w-10 h-10 text-yellow-400" />}
+              title="Coaches / Local Businesses"
+              description="Consultants, trainers, local services"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Results Section */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-white text-center mb-16">Real Results</h2>
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="bg-slate-700 p-8 rounded-xl text-center">
+              <div className="text-4xl font-bold text-blue-400 mb-2">1,000+</div>
+              <div className="text-xl font-semibold text-white mb-4">Leads Scraped Daily</div>
+              <p className="text-slate-300">High-volume lead generation across multiple industries</p>
+            </div>
+            
+            <div className="bg-slate-700 p-8 rounded-xl text-center">
+              <div className="text-4xl font-bold text-green-400 mb-2">90%+</div>
+              <div className="text-xl font-semibold text-white mb-4">Email Deliverability</div>
+              <p className="text-slate-300">Verified contact information with high accuracy rates</p>
+            </div>
+            
+            <div className="bg-slate-700 p-8 rounded-xl text-center">
+              <div className="text-4xl font-bold text-purple-400 mb-2">40+</div>
+              <div className="text-xl font-semibold text-white mb-4">Hours/Month Saved</div>
+              <p className="text-slate-300">Time saved on manual prospecting and lead research</p>
+            </div>
+          </div>
+          
+          {/* Testimonial */}
+          <div className="bg-slate-700 rounded-xl p-8 md:p-12 border border-slate-600 text-center">
+            <div className="flex justify-center mb-6">
+              <div className="flex">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                  <Star key={i} className="w-6 h-6 text-yellow-400 fill-yellow-400" />
                 ))}
               </div>
             </div>
-            
-            <div className="bg-slate-700 rounded-xl p-8">
-              <div className="flex items-center gap-4 mb-6">
-                <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" 
-                  alt="Client" 
-                  className="w-16 h-16 rounded-full object-cover"
-                />
-                <div>
-                  <p className="text-white font-semibold">Sarah Johnson</p>
-                  <p className="text-slate-400">Marketing Director, Global Solutions</p>
-                </div>
-              </div>
-              <p className="text-slate-300 italic mb-4">
-                "The personalized emails AI MUB generates have allowed us to connect with leads in a way we never could before. Our response rates have doubled since implementation."
-              </p>
-              <div className="flex gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
-                ))}
-              </div>
+            <p className="text-2xl text-slate-300 italic mb-8">
+              "AI MUB's lead generation system has completely transformed our sales pipeline. We went from manually searching for prospects to having qualified leads delivered daily. Our conversion rate increased by 40% in just 3 months."
+            </p>
+            <div>
+              <p className="text-white font-semibold text-xl">Sarah Johnson</p>
+              <p className="text-slate-400">VP of Sales, TechCorp Inc.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20">
+      <section className="py-20 bg-gradient-to-b from-slate-800 to-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready to Transform Your Lead Generation?</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Let's Build Your Lead Engine</h2>
           <p className="text-xl text-slate-300 mb-12">
-            Join leading companies that have revolutionized their sales process with our AI-powered lead generation.
+            Stop wasting time on manual prospecting. Get a custom lead generation system that delivers qualified prospects directly to your pipeline.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact-form" className="px-8 py-4 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition transform hover:scale-105">
-              Start Free Trial <ArrowRight className="w-5 h-5" />
+              Start Now <ArrowRight className="w-5 h-5" />
             </Link>
             <Link to="/contact" className="px-8 py-4 bg-slate-700 hover:bg-slate-600 text-white rounded-lg font-semibold flex items-center justify-center gap-2 transition">
-              Schedule Demo <ArrowRight className="w-5 h-5" />
+              Request Demo <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
         </div>
       </section>
     </div>
+  );
+}
+
+function FeatureCard({ icon, title, description }) {
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100', 'translate-y-0');
+        }
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
+    }
+
+    return () => {
+      if (cardRef.current) {
+        observer.unobserve(cardRef.current);
+      }
+    };
+  }, []);
+
+  return (
+    <div
+      ref={cardRef}
+      className="p-6 bg-slate-800 rounded-xl border border-slate-700 hover:border-blue-500 transition-all duration-300 opacity-0 translate-y-4"
+    >
+      <div className="mb-4">{icon}</div>
+      <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+      <p className="text-slate-300">{description}</p>
+    </div>
+  );
+}
+
+function IndustryCard({ icon, title, description }) {
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100', 'translate-y-0');
+        }
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
+    }
+
+    return () => {
+      if (cardRef.current) {
+        observer.unobserve(cardRef.current);
+      }
+    };
+  }, []);
+
+  return (
+    <div
+      ref={cardRef}
+      className="p-6 bg-slate-700 rounded-xl border border-slate-600 text-center opacity-0 translate-y-4 transition-all duration-300 hover:border-blue-500"
+    >
+      <div className="mb-4 flex justify-center">{icon}</div>
+      <h3 className="text-lg font-semibold text-white mb-2">{title}</h3>
+      <p className="text-slate-300 text-sm">{description}</p>
+    </div>
+  );
+}
+
+// Custom icons
+function HomeIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+      <polyline points="9,22 9,12 15,12 15,22" />
+    </svg>
+  );
+}
+
+function BuildingIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <rect width="16" height="20" x="4" y="2" rx="2" ry="2" />
+      <path d="M9 22v-4h6v4" />
+      <path d="M8 6h.01" />
+      <path d="M16 6h.01" />
+      <path d="M12 6h.01" />
+      <path d="M12 10h.01" />
+      <path d="M12 14h.01" />
+      <path d="M16 10h.01" />
+      <path d="M16 14h.01" />
+      <path d="M8 10h.01" />
+      <path d="M8 14h.01" />
+    </svg>
+  );
+}
+
+function TruckIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M14 18V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+      <path d="M15 18H9" />
+      <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" />
+      <circle cx="17" cy="18" r="2" />
+      <circle cx="7" cy="18" r="2" />
+    </svg>
   );
 }
 
